@@ -1,0 +1,468 @@
+/* for padding */
+:root {
+  --screen-padding: 10px 20px;
+}
+
+/* for color */
+:root {
+  --app-black: #000000;
+  --app-white: #ffffff;
+  --app-powderblue: #d1e3ff;
+  --app-navyblue: #0355cc;
+  --app-orange: #ff8a1d;
+  --app-blurblack: #444;
+}
+
+/* custom font */
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/roboto/Roboto-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("./assets/fonts/lato/Lato-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Meriwether Sans";
+  src: url("./assets/fonts/merwetther-sanse/MerriweatherSans-Regular.ttf")
+    format("woff2");
+}
+
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base styles for the entire document */
+body {
+  box-sizing: border-box;
+  /* background-color: var(--app-powderblue);
+  min-height: 100vh; */
+  font-family: Lato, Roboto sans-serif;
+}
+
+/* ------------------header work----------------------- */
+
+/* .header-container {
+  background-color: red;
+} */
+
+/* .header {
+  background-color: white;
+}
+
+.nav-bar-1 {
+  background-color:red;
+} */
+
+/* Info bar at the top */
+.info-bar {
+  background-color: var(--app-black);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--screen-padding);
+  gap: 10px;
+  flex-wrap: wrap-reverse;
+}
+
+.info-contact,
+.info-email {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.fa-phone,
+.fa-envelope {
+  color: var(--app-orange);
+  font-size: 12px;
+}
+
+.info-text {
+  color: inherit;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/*------------------nav bar -------------------*/
+
+/* Main navigation bar */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--screen-padding);
+  background-color: var(--app-powderblue);
+}
+
+.nav-icon-text {
+  font-size: 24px;
+  color: var(--app-navyblue);
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links li a {
+  color: var(--app-black);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav-links li a:hover {
+  color: var(--app-navyblue);
+}
+
+.nav-menu {
+  display: none;
+}
+
+.fa-bars {
+  font-size: 25px;
+  color: var(--app-navyblue);
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-menu {
+    display: block;
+  }
+}
+
+/* ------------------section 1 work----------------------- */
+.first-section {
+  background-color: var(--app-powderblue);
+  /* height: 100vh; */
+}
+.detail-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.detail-text,
+.detail-imge {
+  width: 50%;
+}
+
+.detail-heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--app-navyblue);
+  margin-bottom: 25px;
+  font-family: Meriwether Sans;
+}
+
+.detail-paragraph {
+  margin-bottom: 25px;
+  color: var(--app-black);
+}
+
+@media only screen and (max-width: 600px) {
+  .detail-box {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detail-text,
+  .detail-imge {
+    width: 100%;
+  }
+
+  .detail-heading {
+    font-size: 30px;
+  }
+}
+
+.main-div {
+  padding: 10px 20px;
+  margin: 10px;
+  margin-top: -100px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  justify-content: center;
+}
+.main-box {
+  width: 350px;
+  height: 220px;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 0px 0px 2px black;
+}
+.main-box2 {
+  width: 350px;
+  height: 220px;
+  background-color: orange;
+  z-index: 1;
+  box-shadow: 0px 0px 2px black;
+}
+.main-box3 {
+  width: 350px;
+  height: 220px;
+  border: 1px solid white;
+  background-color: white;
+  z-index: 1;
+  box-shadow: 0px 0px 2px black;
+}
+.main-box p {
+  text-align: center;
+  margin: 140px;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.main-box2 p {
+  text-align: center;
+  margin: 140px;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.main-box3 p {
+  text-align: center;
+  margin: 140px;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.main-box:hover {
+  background-color: orange;
+  border-color: orange;
+  box-shadow: none;
+}
+.main-box3:hover {
+  background-color: orange;
+  border-color: orange;
+  box-shadow: none;
+}
+
+/* .main-box:hover{
+  transform: scale(1);
+  transition: 5s;
+  z-index: 2;
+  
+} */
+@media only screen and (max-width: 600px) {
+  .main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .main-box,
+  .main-box2,
+  .main-box3 {
+    width: 100%;
+    /* height: auto; */
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .main-div {
+    width: 100%;
+  }
+  .main-box {
+    width: 250px;
+    height: 150px;
+  }
+  .main-box p {
+    position: relative;
+    bottom: 70px;
+    right: 50px;
+  }
+  .main-box2 {
+    width: 250px;
+    height: 150px;
+  }
+  .main-box2 p {
+    position: relative;
+    bottom: 70px;
+    right: 50px;
+  }
+  .main-box3 {
+    width: 250px;
+    height: 150px;
+  }
+  .main-box3 p {
+    position: relative;
+    bottom: 70px;
+    right: 50px;
+  }
+}
+
+/* ---about section------- */
+.about-sec {
+  margin: 200px;
+  margin-top: 160px;
+}
+.about-text h1 {
+  font-family: "Meriwether Sans";
+  font-weight: 750;
+}
+.btn-1 {
+  padding: 10px 40px;
+  margin-top: 25px;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+  border: 1px solid blue;
+  font-size: 25px;
+  border-style: none;
+  font-family: "Meriwether Sans";
+  font-weight: 200;
+}
+.btn-1:hover {
+  background-color: white;
+  border: 1px solid blue;
+  color: blue;
+}
+.about-paragraph {
+  margin-top: 15px;
+}
+.about-paragraph p {
+  line-height: 23px;
+  font-size: 16px;
+  font-family: "Meriwether Sans";
+}
+.about-image {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: -530px;
+  margin-right: 40px;
+  /* width: 300px; */
+}
+@media only screen and (max-width: 600px) {
+  .about-sec {
+    margin-top: -10px;
+    margin-left: 60px;
+    position: relative;
+    left: 50px;
+  }
+  .about-text {
+    display: inline-block;
+  }
+  .about-text h1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+  }
+  .about-paragraph {
+    width: 100%;
+    display: flex;
+  }
+  .about-paragraph p {
+    width: 100%;
+    line-height: none;
+    font-size: 20px;
+  }
+
+  .about-image img {
+    width: 100%;
+    height: auto;
+    margin-top: 350px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+  }
+}
+
+/* -----------------EXTRA CONTENT-------------- */
+.main-div1 {
+  background-color: var(--app-powderblue);
+  position: relative;
+  top: 50px;
+}
+.about-img2 img {
+  /* margin: 130px;
+  margin-left: 100px; */
+  position: relative;
+  top: 20px;
+  left: 50px;
+}
+
+.main-content {
+  float: right;
+  margin-top: -450px;
+  margin-right: 250px;
+  /* position: absolute;
+  top: 200px;
+  left: 650px; */
+}
+.btn-3 {
+  padding: 10px 40px;
+  margin-top: 25px;
+  border-radius: 5px;
+  color: var(--app-white);
+  background-color: var(--app-orange);
+  border: 1px solid var(--app-orange);
+  font-size: 25px;
+  border-style: none;
+  font-family: "Lato";
+  font-weight: 200;
+  margin-top: 50px;
+}
+.btn-3:hover {
+  background-color: var(--app-powderblue);
+  border: 1px solid var(--app-orange);
+  color: var(--app-orange);
+}
+.main-paragraph {
+  margin-top: 20px;
+}
+.main-paragraph > p {
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text > h1 {
+  color: #0000ff;
+  font-family: "Meriwether Sans";
+}
+
+@media only screen and (max-width: 600px) {
+  .main-div1 {
+    width: 100%;
+    height: 850px;
+    margin-top: -30px;
+  }
+  .about-img2 img {
+    width: 400px;
+    height: 350px;
+    position: relative;
+    left: 90px;
+    object-fit: contain;
+  }
+  .main-content {
+    position: relative;
+    top: 500px;
+    left: 160px;
+  }
+  @media only screen and (max-width: 450px) {
+    .about-img2 img {
+      position: relative;
+      left: 10px;
+    }
+  }
+}
+@media only screen and (max-width: 520px){
+  .main-div1{
+    height: 900px;
+  }
+}

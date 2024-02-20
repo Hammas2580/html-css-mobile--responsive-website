@@ -1,0 +1,1005 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+/* ------------------header work----------------------- */
+.header-container {
+  background-color: powderblue;
+  height: 800px;
+}
+.haeder {
+  background-color: white;
+}
+.nav-bar-1 {
+  background-color: powderblue;
+}
+
+.info-bar {
+  background-color: #000000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  gap: 10px;
+  flex-wrap: wrap-reverse;
+}
+
+.info-contact .info-email {
+  display: flex;
+  align-items: center;
+}
+
+.info-same {
+  color: inherit;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/*------------------nav bar -------------------*/
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: pink;
+  width: 100%;
+}
+.nav-links {
+  display: flex;
+
+}
+.nav-links ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.nav-icon {
+  display: inline-block;
+  padding: 10px 20px;
+}
+.nav-icon-text {
+  font-size: 40px;
+  color: #0000ff;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.nav-links ul li a:hover {
+  color: blue;
+}
+.img-haeder {
+  position: absolute;
+  top: 130px;
+  right: 235px;
+  z-index: 1;
+}
+
+/*--------------------------------------content----------------------------------*/
+.content {
+  display: flex;
+  margin: 150px;
+}
+.text-container {
+  font-size: 50px;
+  color: blue;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.text-content {
+  margin-top: 25px;
+  line-height: 22px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.btn-2 {
+  padding: 10px 40px;
+  margin-top: 25px;
+  border-radius: 5px;
+  color: white;
+  background-color: orange;
+  border: 1px solid orange;
+  font-size: 25px;
+  border-style: none;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+.btn-2:hover {
+  background-color: powderblue;
+  border: 1px solid orange;
+  color: orange;
+}
+
+/* -------------main box work---------------- */
+.main-div {
+  padding: 10px 20px;
+  margin: 10px;
+  margin-top: -100px;
+  display: flex;
+  /* justify-content: space-evenly; */
+  gap: 20px;
+  justify-content: center;
+}
+.main-box {
+  width: 350px;
+  height: 220px;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 0px 0px 2px black;
+}
+.main-box2 {
+  width: 350px;
+  height: 220px;
+  background-color: orange;
+  z-index: 1;
+  box-shadow: 0px 0px 2px black;
+}
+.main-box3 {
+  width: 350px;
+  height: 220px;
+  border: 1px solid white;
+  background-color: white;
+  z-index: 1;
+  box-shadow: 0px 0px 2px black;
+}
+.main-box p {
+  text-align: center;
+  margin: 140px;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.main-box2 p {
+  text-align: center;
+  margin: 140px;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.main-box3 p {
+  text-align: center;
+  margin: 140px;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+.main-box:hover {
+  background-color: orange;
+  border-color: orange;
+  box-shadow: none;
+}
+.main-box3:hover {
+  background-color: orange;
+  border-color: orange;
+  box-shadow: none;
+}
+
+/* .main-box:hover{
+    transform: scale(1);
+    transition: 5s;
+    z-index: 2;
+    
+  } */
+
+/* ----------------------about us-------------- */
+.about-sec {
+  margin: 200px;
+  margin-top: 160px;
+}
+
+.about-text h1 {
+  font-family: sans-serif;
+  font-weight: 750;
+}
+.btn-1 {
+  padding: 10px 40px;
+  margin-top: 25px;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+  border: 1px solid blue;
+  font-size: 25px;
+  border-style: none;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+.btn-1:hover {
+  background-color: white;
+  border: 1px solid blue;
+  color: blue;
+}
+.about-paragraph {
+  margin-top: 15px;
+}
+.about-paragraph p {
+  line-height: 23px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.about-image {
+  /* position: relative;
+    top: -500px;
+    left: 750px; */
+  /* float: right;
+    margin-top: -530px;
+    margin-right: 100px; */
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: -530px;
+  margin-right: 100px;
+  /* position: absolute;
+    top: 1045px;
+    right: 120px; */
+}
+/* -------about imae----------- */
+.main-div1 {
+  margin: 85px;
+  background-color: powderblue;
+  /* width: 100%; */
+  margin-left: 12px;
+  margin-right: 10px;
+}
+.about-img2 img {
+  margin: 130px;
+  margin-left: 100px;
+}
+.main-content {
+  float: right;
+  margin-top: -615px;
+  margin-right: 250px;
+}
+.btn-3 {
+  padding: 10px 40px;
+  margin-top: 25px;
+  border-radius: 5px;
+  color: white;
+  background-color: orange;
+  border: 1px solid orange;
+  font-size: 25px;
+  border-style: none;
+  font-family: sans-serif;
+  font-weight: 200;
+  margin-top: 50px;
+}
+.btn-3:hover {
+  background-color: powderblue;
+  border: 1px solid orange;
+  color: orange;
+}
+.main-paragraph {
+  margin-top: 20px;
+}
+.main-paragraph > p {
+  font-size: 16px;
+  line-height: 20px;
+}
+.main-text > h1 {
+  color: #0000ff;
+  font-family: sans-serif;
+}
+/* ------------------------services section----------------- */
+.services-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.services-text > h1 {
+  font-family: sans-serif;
+  font-weight: 780;
+}
+.ser-div {
+  padding: 10px 20px;
+  margin: 10px;
+  margin-top: 70px;
+  display: flex;
+  /* justify-content: space-evenly; */
+  gap: 30px;
+  justify-content: center;
+}
+.ser-box {
+  width: 350px;
+  height: 230px;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 0px 0px 5px black;
+}
+.ser-box2 {
+  width: 350px;
+  height: 230px;
+  box-shadow: 0px 0px 5px black;
+}
+.ser-box3 {
+  width: 350px;
+  height: 230px;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 0px 0px 5px black;
+}
+.ser-img {
+  display: flex;
+  justify-content: center;
+}
+.img-1 {
+  height: 70px;
+  margin-top: 18px;
+}
+.ser-parahgraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+.ser-content {
+  text-align: center;
+  margin: 10px;
+}
+.ser-content > p {
+  line-height: 22px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.ser-box:hover {
+  background-color: orange;
+  border-color: orange;
+  box-shadow: none;
+  color: white;
+}
+
+.ser-box2:hover {
+  background-color: orange;
+  border-color: orange;
+  box-shadow: none;
+  color: white;
+}
+.ser-box3:hover {
+  background-color: orange;
+  border-color: orange;
+  box-shadow: none;
+  color: white;
+}
+.btn-4 {
+  margin-left: 650px;
+}
+/* -------extra content---------------------- */
+.extra-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+.extra-heading > h1 {
+  font-family: sans-serif;
+  font-weight: 550;
+}
+.main-div-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  /* gap: 200px; */
+}
+.div-1 {
+  width: 550px;
+  height: 300px;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 0px 0px 4px black;
+  margin: 50px;
+}
+.clinet-img-2 {
+  margin: 15px;
+}
+.clinet-img-2 img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.star-icons {
+  position: relative;
+  top: -100px;
+  left: 160px;
+  margin: 5px;
+  color: rgb(244, 177, 6);
+}
+.extra-text {
+  position: relative;
+  top: -100px;
+  left: 165px;
+}
+.extra-text p {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.extra-content-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -25px;
+}
+.extra-content-1 > p {
+  font-family: sans-serif;
+  line-height: 25px;
+  font-weight: 450;
+}
+.main-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  cursor: pointer;
+}
+.button-1 {
+  width: 50px;
+  height: 50px;
+  border: 1px soild black;
+  background-color: blue;
+  margin: 50px;
+}
+.button-2 {
+  width: 50px;
+  height: 50px;
+  border: 1px soild black;
+  background-color: blue;
+  margin: 50px;
+}
+.fa-arrow-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 18px;
+  color: white;
+}
+.fa-arrow-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 18px;
+  color: white;
+}
+/* ---------------------------contact section------------------- */
+.contact-bar {
+  display: inline-block;
+  margin: 115px;
+}
+.conatct-heading > h1 {
+  font-family: sans-serif;
+}
+.contact-form {
+  margin-left: 100px;
+}
+.form {
+  margin-top: -70px;
+}
+input {
+  margin: 20px;
+  padding: 15px;
+  width: 550px;
+  font-size: 20px;
+  box-shadow: 0px 0px 1px black;
+  font-family: serif;
+}
+.abc {
+  height: 120px;
+}
+.btn-send {
+  padding: 10px 40px;
+  margin-top: 25px;
+  /* border-radius: 5px; */
+  color: white;
+  background-color: blue;
+  border: 1px solid blue;
+  font-size: 25px;
+  border-style: none;
+  font-family: sans-serif;
+  font-weight: 200;
+  margin-left: 15px;
+}
+.btn-send:hover {
+  background-color: white;
+  border: 1px solid blue;
+  color: blue;
+}
+.goole-img {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 100px;
+  margin-top: -540px;
+}
+/* -----------------------footer section-------------------- */
+footer {
+  height: 600px;
+  border: 1px solid black;
+  background-color: navy;
+  margin: 120px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.footer-heading {
+  text-align: center;
+  padding: 90px;
+}
+.footer-heading > h1 {
+  color: white;
+  font-family: sans-serif;
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.icons {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: blue;
+}
+.fa-location-dot {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  font-size: 20px;
+  color: white;
+}
+
+.fa-phone {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  font-size: 20px;
+  color: white;
+}
+.fa-envelope {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  font-size: 20px;
+  color: white;
+}
+.icons p {
+  color: white;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.icons-hading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 80px;
+}
+.icons-hading h1 {
+  color: white;
+  font-family: sans-serif;
+}
+.footer-icon-1 {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  margin-left: 650px;
+  margin-top: -50px;
+  border-radius: 5px;
+}
+.icons-1 {
+  display: inline;
+  color: blue;
+}
+.fa-facebook {
+  margin: 10px;
+  font-size: 30px;
+}
+.fa-twitter {
+  margin: 10px;
+  font-size: 30px;
+}
+.fa-instagram {
+  margin: 10px;
+  font-size: 30px;
+}
+.fa-youtube {
+  font-size: 30px;
+}
+.footer-end {
+  display: inline;
+}
+.footer-end p {
+  display: inline;
+  position: relative;
+  top: 40px;
+  color: white;
+  font-size: 16px;
+}
+.icons:hover {
+  background-color: orange;
+}
+
+@media only screen and (max-width: 576px) {
+
+  .info-same {
+    margin-right: 10px;
+  }
+  .nav-links ul li {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 150px;
+    right: 200px;
+  }
+  .nav-icon-text {
+    margin-left: 180px;
+  }
+  .header-container {
+    height: 1360px;
+    width: 100%;
+  }
+  .img-haeder {
+    position: relative;
+    top: 470px;
+    right: 350px;
+  }
+  .img-haeder img {
+    height: 450px;
+  }
+  .main-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .main-box p{
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-sec {
+    margin-top: 10px;
+  }
+  .about-text h1 {
+    text-align: center;
+    display: block;
+  }
+  .about-paragraph {
+    margin: 10px;
+    display: flex;
+  }
+  .about-image {
+    position: relative;
+    top: 350px;
+    left: 10px;
+  }
+  .about-image img {
+    display: flex;
+    justify-content:center  ;
+    height: 300px;
+  }
+  .about-img2 img{
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+
+  }
+  .main-div1{
+    margin-top: 350px;
+
+  }
+  .main-content {
+    margin: 5px;
+  }
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>html and css templates</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ------heder------------------ -->
+
+      <header class="header-container">
+        <div class="info-bar">
+          <div class="info-contact">
+            <h5 class="info-text">Call: 0343788737883</h5>
+          </div>
+          <div class="info-email">
+            <h5 class="info-text">Email: abc@gmail.com</h5>
+          </div>
+        </div>
+
+<!-- Navigation Bar -->
+<nav>
+  <div class="nav-bar">
+    <div class="nav-icon">
+      <h3 class="nav-icon-text">INANCE</h3>
+    </div>
+    <ul class="nav-links">
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./services.html">Services</a></li>
+      <li><a href="./contactus.html">Contact us</a></li>
+    </ul>
+  </div>
+</nav>
+      
+      <!-- -------------------------content----------- -->
+      <!-- <div class="content">
+        <div class="mian-continer">
+          <h1 class="text-container">
+            Repair and <br />
+            Maintenance <br />
+            Services
+          </h1>
+          <p class="text-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui harum
+            voluptatem <br />
+            adipisci. Quos molestiae saepe dicta nobis pariatur, tempora iusto,
+            ad possimus soluta <br />
+            hic praesentium mollitia consequatur beatae, aspernatur culpa.
+          </p>
+          <button type="button" class="btn-2">Contact Us</button>
+        </div>
+        <div class="img-haeder">
+          <img src="./image.html/background.png" alt="" />
+        </div>
+      </div> -->
+    </header>
+
+    <!-- <div class="main-div">
+      <div class="main-box">
+        <p>REPAIR</p>
+      </div>
+      <div class="main-box2">
+        <p>IMPROVE</p>
+      </div>
+      <div class="main-box3">
+        <p>MAINTAIN</p>
+      </div>
+    </div> -->
+    <br />
+
+    <!-- ---------------------about section------------------- -->
+    <!-- <div class="about-sec">
+      <div class="about-text">
+        <h1>ABOUT US</h1>
+      </div>
+      <div class="about-paragraph">
+        <p>
+          There are many variations of passages of Lorem Ipsum available, <br />
+          but the majority have suffered alteration in some form, by <br />
+          injected humour, or randomisedThere are many variations of <br />
+          passages of Lorem Ipsum available, but the majority have suffered
+          <br />
+          alteration in some form, by injected humour, or randomised
+        </p>
+      </div>
+      <button type="button" class="btn-1">Contact Us</button>
+    </div>
+    <div class="about-image">
+      <img src="./image.html/about-img.jpg" alt="" />
+    </div>
+    <br />
+    <br />
+    <!-- ------------about image ------------------- -->
+    <!-- <div class="main-div1">
+      <div class="about-img2">
+        <img src="./image.html/professional-img.png" alt="" />
+      </div>
+      <div class="main-content">
+        <div class="main-text">
+          <h1>WE PROVIDE PROFESSIONAL <br />HOME SERVICES.</h1>
+        </div>
+        <div class="main-paragraph">
+          <p>
+            randomised words which don't look even slightly believable. If you
+            are going to <br />
+            use a passage of Lorem Ipsum, you need to be sure there isn't
+            anything <br />
+            embarrassing hidden in the middle of text. All randomised words
+            which don't <br />look even slightly
+          </p>
+          <button type="button" class="btn-3">READ MORE</button>
+        </div>
+      </div>
+    </div> -->
+    <!-- ---------------------services---------------------- -->
+    <!-- <div class="services-sec">
+      <div class="services-text">
+        <h1>OUR SERVICES</h1>
+      </div>
+    </div> -->
+    <!-- <div class="ser-div">
+      <div class="ser-box">
+        <div class="ser-img">
+          <img src="./image.html/s1.png" class="img-1" alt="" />
+        </div>
+        <div class="ser-parahgraph">
+          <h2>Maintenance</h2>
+        </div>
+        <div class="ser-content">
+          <p>
+            when looking at its layout. The point of using <br />
+            Lorem Ipsum isthat it has a more-or-less <br />
+            normal
+          </p>
+        </div>
+      </div>
+      <div class="ser-box2">
+        <div class="ser-img">
+          <img src="./image.html/s2.png" class="img-1" alt="" />
+        </div>
+        <div class="ser-parahgraph">
+          <h2>Electrical</h2>
+        </div>
+        <div class="ser-content">
+          <p>
+            when looking at its layout. The point of using <br />
+            Lorem Ipsum isthat it has a more-or-less <br />
+            normal
+          </p>
+        </div>
+      </div>
+      <div class="ser-box3">
+        <div class="ser-img">
+          <img src="./image.html/s3.png" class="img-1" alt="" />
+        </div>
+        <div class="ser-parahgraph">
+          <h2>Plumbing</h2>
+        </div>
+        <div class="ser-content">
+          <p>
+            when looking at its layout. The point of using <br />
+            Lorem Ipsum isthat it has a more-or-less <br />
+            normal
+          </p>
+        </div>
+      </div>
+      </div> --> 
+    </div>
+    <!-- <button type="button" class="btn-1 btn-4">VIEW MORE</button> -->
+      <!-- --------extra content--------------------- -->
+      <!-- <div class="extra-content">
+        <div class="extra-heading">
+          <h1>WHAT OUR CLIENTS SAY</h1>
+        </div>
+      </div>
+     <div class="main-div-1">
+      <div class="div-1">
+        <div class="clinet-img-2">
+          <img src="./image.html/client-2.jpg" alt="">
+        </div>
+        <div class="extra-text">
+          <p>Jorch morik</p>
+        </div>
+        <div class="star-icons">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="extra-content-1">
+          <p>chunks as necessary,making this the first ture generator on the <br>
+          internet.It use a dictionary of over 200 latin word combined with a <br>
+        handful of model sentence structure, to generate lorem Ipsum</p>
+        </div>
+      </div>
+      <div class="div-1">
+        <div class="clinet-img-2">
+          <img src="./image.html/client-1.jpg" alt="">
+        </div>
+
+        <div class="extra-text">
+          <p>Jorch morik</p>
+        </div>
+        <div class="star-icons">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="extra-content-1">
+          <p>chunks as necessary,making this the first ture generator on the <br>
+          internet.It use a dictionary of over 200 latin word combined with a <br>
+        handful of model sentence structure, to generate lorem Ipsum</p>
+        </div>
+      </div>
+     </div>
+     <div class="main-button">
+      <div class="button-1">
+        <i class="fa-solid fa-arrow-left"></i>
+
+      </div>
+      <div class="button-2">
+        <i class="fa-solid fa-arrow-right"></i>
+
+      </div>
+     </div> -->
+     <!-- ---------------contact section ----------------------- -->
+     <!-- <div class="contact-bar"> -->
+      <!-- <div class="conatct-heading">
+        <h1>CONTACT US</h1>
+      </div>
+     </div>
+     <div class="contact-form">
+      <form action="" class="form">
+        <input  type="text" name="Name" placeholder="Name" > <br>
+        <input  type="text" name="Phone Number" placeholder="Phone Number"> <br>
+        <input  type="text" name="Email" placeholder="Email"> <br>
+        <input  type="text" name="Message" placeholder="Message" class="abc" > <br>
+        <button type="button" class="btn-send ">SEND</button>
+      </form>
+     </div>
+     <div class="goole-img">
+      <iframe
+      width="650"
+      height="450"
+      src="./image.html/goole maps2.png">
+      </iframe>
+     </div> -->
+     <!-- -------------------footer section------------------ -->
+     <!-- <footer>
+      <div class="footer-heading">
+        <h1>GET IN TOUCH</h1>
+      </div>
+      <div class="footer-icons">
+        <div class="icons">
+          <i class="fa-solid fa-location-dot"></i> 
+          <p>lorem</p>
+        </div>
+        <div class="icons">
+          <i class="fa-solid fa-phone"></i> 
+          <p>034420157888</p>
+        </div>
+        <div class="icons">
+          <i class="fa-solid fa-envelope"></i> 
+          <p>abc@gmail.com</p>
+        </div>
+      </div>
+      <div class="icons-hading">
+        <h1>FOLLOW US</h1>
+      </div>
+      <div class="footer-icon-1">
+        <div class="icons-1">
+          <i class="fa-brands fa-facebook"></i>
+        </div>
+        <div class="icons-1">
+          <i class="fa-brands fa-twitter"></i>
+
+        </div>
+        <div class="icons-1">
+          <i class="fa-brands fa-instagram"></i>
+
+        </div>
+        <div class="icons-1">
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="footer-end">
+          <p> © 2024 All Rights Reserved. By HTML Design</p>
+        </div>
+        <hr>
+      </div>
+     </footer> -->
+
+
+  </body>
+</html>

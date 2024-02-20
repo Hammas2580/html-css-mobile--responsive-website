@@ -1,0 +1,32 @@
+.global-button {
+  padding: 10px 45px;
+  text-transform: uppercase;
+  background-color: var(--app-orange);
+  color: var(--app-white);
+  border: 1px solid var(--app-orange);
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: Meriwether Sans;
+}
+
+.global-button:hover {
+  color: var(--app-orange);
+  background-color: transparent;
+}
+
+.app-container {
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 20px 0px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .app-container {
+    padding: 10px 40px;
+    padding-right: 20px;
+  }
+}
