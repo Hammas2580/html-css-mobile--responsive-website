@@ -254,4 +254,10 @@ for padding
       width: 100%;
     }
   }
+  @media only screen and (max-width:415px){
+    .btn-4{
+        position: relative;
+        right: 60px;
+    }
+  }
   

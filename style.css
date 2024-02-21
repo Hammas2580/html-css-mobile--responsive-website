@@ -574,4 +574,121 @@ body {
     width: 100%;
   }
 }
+@media only screen and (max-width:420px){
+  .btn-4{
+    margin-left: 100px;
+    display: block;
+  
+  }
+}
+/* -------extra content---------------------- */
+.extra-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+.extra-heading > h1 {
+  font-family: sans-serif;
+  font-weight: 550;
+}
+.main-div-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  /* gap: 200px; */
+}
+.div-1 {
+  width: 550px;
+  height: 300px;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 0px 0px 4px black;
+  margin: 50px;
+}
+.clinet-img-2 {
+  margin: 15px;
+}
+.clinet-img-2 img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+.star-icons {
+  position: relative;
+  top: -100px;
+  left: 160px;
+  margin: 5px;
+  color: rgb(244, 177, 6);
+}
+.extra-text {
+  position: relative;
+  top: -100px;
+  left: 165px;
+}
+.extra-text p {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.extra-content-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -25px;
+}
+.extra-content-1 > p {
+  font-family: sans-serif;
+  line-height: 25px;
+  font-weight: 450;
+}
+.main-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  cursor: pointer;
+}
+.button-1 {
+  width: 50px;
+  height: 50px;
+  border: 1px soild black;
+  background-color: blue;
+  margin: 50px;
+}
+.button-2 {
+  width: 50px;
+  height: 50px;
+  border: 1px soild black;
+  background-color: blue;
+  margin: 50px;
+}
+.fa-arrow-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 18px;
+  color: white;
+}
+.fa-arrow-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 18px;
+  color: white;
+}
+@media only screen and (max-width:600px){
+  .main-div-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .star-icons{
+    width: 300px;
+  }
+  .extra-text{
+    width: 300px;
+  }
+}
 
