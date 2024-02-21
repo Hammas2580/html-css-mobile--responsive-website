@@ -129,39 +129,7 @@ for padding
     }
   }
 
-  .content {
-    display: flex;
-    margin: 150px;
-  }
-  .text-container {
-    font-size: 50px;
-    color: blue;
-    font-family: sans-serif;
-    font-weight: 700;
-  }
-  .text-content {
-    margin-top: 25px;
-    line-height: 22px;
-    font-family: sans-serif;
-    font-weight: 500;
-  }
-  .btn-2 {
-    padding: 10px 40px;
-    margin-top: 25px;
-    border-radius: 5px;
-    color: white;
-    background-color: orange;
-    border: 1px solid orange;
-    font-size: 25px;
-    border-style: none;
-    font-family: sans-serif;
-    font-weight: 200;
-  }
-  .btn-2:hover {
-    background-color: powderblue;
-    border: 1px solid orange;
-    color: orange;
-  }
+  
 /* ---about section------- */
 .about-sec {
   margin: 200px;
