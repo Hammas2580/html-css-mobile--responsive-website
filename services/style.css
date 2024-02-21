@@ -1,0 +1,257 @@
+for padding
+:root {
+    --screen-padding: 10px 20px;
+  }
+  
+  /* for color */
+  :root {
+    --app-black: #000000;
+    --app-white: #ffffff;
+    --app-powderblue: #d1e3ff;
+    --app-navyblue: #0355cc;
+    --app-orange: #ff8a1d;
+    --app-blurblack: #444;
+  }
+  
+  /* custom font */
+  @font-face {
+    font-family: "Roboto";
+    src: url("./assets/fonts/roboto/Roboto-Regular.ttf") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Lato";
+    src: url("./assets/fonts/lato/Lato-Regular.ttf") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "Meriwether Sans";
+    src: url("./assets/fonts/merwetther-sanse/MerriweatherSans-Regular.ttf")
+      format("woff2");
+  }
+  
+  /* Global reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Base styles for the entire document */
+  body {
+    box-sizing: border-box;
+ 
+    font-family: Lato, Roboto sans-serif;
+  }
+  
+  /* ------------------header work----------------------- */
+  
+  
+  .info-bar {
+    background-color: var(--app-black);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--screen-padding);
+    gap: 10px;
+    flex-wrap: wrap-reverse;
+  }
+  
+  .info-contact,
+  .info-email {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  
+  .fa-phone,
+  .fa-envelope {
+    color: var(--app-orange);
+    font-size: 12px;
+  }
+  
+  .info-text {
+    color: inherit;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  /*------------------nav bar -------------------*/
+  
+  /* Main navigation bar */
+  .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--screen-padding);
+    background-color:var(--app-powderblue);
+  }
+  
+  .nav-icon-text {
+    font-size: 24px;
+    color: var(--app-navyblue);
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+  }
+  
+  .nav-links li a {
+    color: var(--app-black);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .nav-links li a:hover {
+    color: var(--app-navyblue);
+  }
+  
+  .nav-menu {
+    display: none;
+  }
+  
+  .fa-bars {
+    font-size: 25px;
+    color: var(--app-navyblue);
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .nav-menu {
+      display: block;
+    }
+  }
+  /* ------------------------services section----------------- */
+.services-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .services-text > h1 {
+    font-family:  "Meriwether Sans";
+    font-weight: 780;
+  }
+  .services-text{
+    margin-top: 90px;
+  }
+  .ser-div {
+    padding: 10px 20px;
+    margin: 10px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    gap: 30px;
+  }
+  .ser-box {
+    width: 350px;
+    height: 250px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+  }
+  .ser-box2 {
+    width: 350px;
+    height: 250px;
+    box-shadow: 0px 0px 5px black;
+  }
+  .ser-box3 {
+    width: 350px;
+    height: 250px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+  }
+  .ser-img {
+    display: flex;
+    justify-content: center;
+  }
+  .img-1 {
+    height: 70px;
+    margin-top: 18px;
+  }
+  .ser-parahgraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13px;
+    font-family:  "Meriwether Sans";
+    font-weight: 200;
+  }
+  .ser-content {
+    text-align: center;
+    margin: 10px;
+  }
+  .ser-content > p {
+    line-height: 22px;
+    font-size: 16px;
+    font-family:  "Meriwether Sans";
+  }
+  .ser-box:hover {
+    background-color: orange;
+    border-color: orange;
+    box-shadow: none;
+    color: white;
+  }
+  
+  .ser-box2:hover {
+    background-color: orange;
+    border-color: orange;
+    box-shadow: none;
+    color: white;
+  }
+  .ser-box3:hover {
+    background-color: orange;
+    border-color: orange;
+    box-shadow: none;
+    color: white;
+  }
+  .btn-4 {
+    margin-left: 650px;
+    font-family: "lato";
+  }
+  .btn-4 {
+    padding: 10px 40px;
+    margin-top: 25px;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    border: 1px solid blue;
+    font-size: 25px;
+    border-style: none;
+    font-family: "Meriwether Sans";
+    font-weight: 200;
+  }
+  .btn-4:hover {
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+  }
+  @media only screen and (max-width:600px){
+    .btn-4{
+     margin-left: 180px;
+     display: inline-block;
+    }
+    .ser-div{
+      display: flex;
+      flex-direction: column;
+    }
+    .ser-box{
+      width: 100%;
+    }
+    .ser-box2{
+      width: 100%;
+    }
+    .ser-box3{
+      width: 100%;
+    }
+  }
+  

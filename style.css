@@ -370,7 +370,6 @@ body {
   }
   .about-paragraph p {
     width: 100%;
-    line-height: none;
     font-size: 20px;
   }
 
@@ -466,3 +465,113 @@ body {
     height: 900px;
   }
 }
+/* ------------------------services section----------------- */
+.services-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.services-text > h1 {
+  font-family:  "Meriwether Sans";
+  font-weight: 780;
+}
+.services-text{
+  margin-top: 90px;
+}
+.ser-div {
+  padding: 10px 20px;
+  margin: 10px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  gap: 30px;
+}
+.ser-box {
+  width: 350px;
+  height: 250px;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 0px 0px 5px black;
+}
+.ser-box2 {
+  width: 350px;
+  height: 250px;
+  box-shadow: 0px 0px 5px black;
+}
+.ser-box3 {
+  width: 350px;
+  height: 250px;
+  border: 1px solid white;
+  background-color: white;
+  box-shadow: 0px 0px 5px black;
+}
+.ser-img {
+  display: flex;
+  justify-content: center;
+}
+.img-1 {
+  height: 70px;
+  margin-top: 18px;
+}
+.ser-parahgraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+  font-family:  "Meriwether Sans";
+  font-weight: 200;
+}
+.ser-content {
+  text-align: center;
+  margin: 10px;
+}
+.ser-content > p {
+  line-height: 22px;
+  font-size: 16px;
+  font-family:  "Meriwether Sans";
+}
+.ser-box:hover {
+  background-color: orange;
+  border-color: orange;
+  box-shadow: none;
+  color: white;
+}
+
+.ser-box2:hover {
+  background-color: orange;
+  border-color: orange;
+  box-shadow: none;
+  color: white;
+}
+.ser-box3:hover {
+  background-color: orange;
+  border-color: orange;
+  box-shadow: none;
+  color: white;
+}
+.btn-4 {
+  margin-left: 650px;
+  font-family: "lato";
+}
+@media only screen and (max-width:600px){
+  .btn-4{
+   margin-left: 180px;
+   display: inline-block;
+  }
+  .ser-div{
+    display: flex;
+    flex-direction: column;
+  }
+  .ser-box{
+    width: 100%;
+  }
+  .ser-box2{
+    width: 100%;
+  }
+  .ser-box3{
+    width: 100%;
+  }
+}
+
